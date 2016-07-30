@@ -7,7 +7,7 @@ const controller = botKit.slackbot({
 });
 
 controller.spawn({
-	token: 'xoxb-64620058769-Ra3JavtNMhfAJHjhjrG8wXHn'
+	token: process.env.BOT_API_KEY
 }).startRTM(function (err) {
 	if (err) {
 		throw new Error(err);
