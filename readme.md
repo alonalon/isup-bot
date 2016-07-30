@@ -1,6 +1,6 @@
-# isup-bot [![Build Status](https://travis-ci.org/alonalon/isup-bot.svg?branch=master)](https://travis-ci.org/alonalon/isup-bot)
+# IsUp-bot
 
-> A Slackbot for quickly get status of website
+> A Slack bot for quickly get status of website.
 
 ## Usage
 @isup google.com
