@@ -1,0 +1,37 @@
+{
+  "name": "isup-bot",
+  "version": "0.0.0",
+  "description": "Slackbot for checking if website is up.",
+  "license": "MIT",
+  "repository": "alonalon/isup-bot",
+  "author": {
+    "name": "alonalon",
+    "email": "aronhafner@gmail.com",
+    "url": "aronhafner.com"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "scripts": {
+    "build": "babel --presets es2015,stage-0 index.js -o build/app.js",
+    "go": "node build/app.js",
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "is-up": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "xo": "^0.12.1"
+  }
+}
